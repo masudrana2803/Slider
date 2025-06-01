@@ -16,6 +16,7 @@ a{
 }
 
 .lion-slide{
+    margin-top: 40px;
     position: relative;
 }
 
@@ -47,13 +48,17 @@ align-items: center;
     right: -20px;
     top: 50%; 
 }
+
+
+
 /* ---------------part 1 finished------------------ */
-.lion-slide1 img{
+.lion-slide2 img{
     width: 400px;
     height: 300px;
+margin: auto;
 }
 
-.lion-slide1 ul{
+.lion-slide2 ul{
     list-style: none;
     display: flex;
     gap: 10px;
@@ -62,7 +67,22 @@ align-items: center;
     margin-top: 10px;
 }
 
-.lion-slide1 button{
+/* ----------------part 2 finished------------------- */
+.cat-slide img{
+    width: 400px;
+    height: 300px;
+}
+
+.cat-slide ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.cat-slide button{
     border: none;
     padding: 0;
 }
@@ -80,17 +100,3 @@ align-items: center;
 }
 
 
-.lion-slide2 img{
-    width: 400px;
-    height: 300px;
-margin: auto;
-}
-
-.lion-slide2 ul{
-    list-style: none;
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-}

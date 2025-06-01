@@ -7,17 +7,6 @@ $('.lion-slide').slick({
   nextArrow:'<i class="fa-solid fa-arrow-right myArrow nx"></i>',
 });
 			
-
-
-$('.lion-slide1').slick({
-  infinite: true,
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  arrows:false,
-  dots:true,
-});
-
-
 $('.lion-slide2').slick({
   dots: true,
   infinite: true,
@@ -26,3 +15,14 @@ $('.lion-slide2').slick({
   cssEase: 'linear',
   arrows:false,
 });
+
+
+$('.cat-slide').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  arrows:false,
+  dots:true,
+});
+
+
