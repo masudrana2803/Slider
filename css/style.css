@@ -1,0 +1,96 @@
+img{
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.lion-slide img{
+    width: 400px;
+    height: 300px;
+}
+
+.lion-slide{
+    position: relative;
+}
+
+.myArrow{
+width: 30px;
+height: 30px;
+font-size: 20px;
+/* color: blue; */
+position: absolute;
+z-index: 2;
+border: 2px solid blue;
+border-radius: 50%;
+display: flex !important;
+justify-content: center;
+align-items: center;
+}
+
+.myArrow:hover{
+    background-color: black;
+    color: green;
+    transition: all linear .4s;
+}
+
+.pr{
+    left: -50px;
+    top:50%;
+}
+.nx{
+    right: -20px;
+    top: 50%; 
+}
+/* ---------------part 1 finished------------------ */
+.lion-slide1 img{
+    width: 400px;
+    height: 300px;
+}
+
+.lion-slide1 ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.lion-slide1 button{
+    border: none;
+    padding: 0;
+}
+
+.slick-dots li button{
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.slick-dots li button:hover{
+    background-color: black;
+}
+
+
+.lion-slide2 img{
+    width: 400px;
+    height: 300px;
+margin: auto;
+}
+
+.lion-slide2 ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
