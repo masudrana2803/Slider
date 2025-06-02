@@ -9,10 +9,9 @@ a{
     display: inline-block;
 }
 /* .............Navbar ................. */
-.navbar-nav{
-    width: 300px;
+.navbar-brand{
+    margin-right: 700px;
 }
-
 
 
 .navbar-brand img{
