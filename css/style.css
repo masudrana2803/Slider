@@ -29,7 +29,8 @@ padding: 0;
 }
 
 #video{
-    justify-content: center;
+    margin-top: 40px;
+    text-align: center;
 }
 
 .lion-slide img{
