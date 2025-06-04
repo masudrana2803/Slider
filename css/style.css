@@ -31,6 +31,8 @@ padding: 0;
 #video{
     margin-top: 40px;
     text-align: center;
+    /* width: 400px;
+    height: 320px; */
 }
 
 .lion-slide img{
@@ -123,3 +125,14 @@ margin: auto;
 }
 
 
+.videoslide{
+    text-align: center;
+
+}
+
+.slick-track {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}

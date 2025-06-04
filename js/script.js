@@ -1,3 +1,16 @@
+$('.videoslide').slick({
+  infinite: true,
+  slidesToShow: 5,
+  slidesToScroll: 5,
+  arrows:true,
+  prevArrow:'<i class="fa-solid fa-arrow-left myArrow pr"></i>',
+  nextArrow:'<i class="fa-solid fa-arrow-right myArrow nx"></i>',
+
+});
+		
+
+// fojfdojfojdo
+
 $('.lion-slide').slick({
   infinite: true,
   slidesToShow: 3,
