@@ -80,7 +80,7 @@ align-items: center;
 .lion-slide2 img{
     width: 400px;
     height: 300px;
-margin: auto;
+    margin: auto;
 }
 
 .lion-slide2 ul{
@@ -135,4 +135,28 @@ margin: auto;
     justify-content: center;
     align-items: center;
     gap: 50px;
+}
+
+
+
+.lion2slide img{
+    width: 320px;
+    height: 320px;
+}
+.lion2slide {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.lion2slide ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
 }
